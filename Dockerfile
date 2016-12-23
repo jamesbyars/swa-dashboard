@@ -1,5 +1,5 @@
 FROM node:7
-MAINTAINER James Byars
+MAINTAINER James Byars <jbyars4ku@gmail.com>
 
 WORKDIR /opt
 
