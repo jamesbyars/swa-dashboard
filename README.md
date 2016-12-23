@@ -15,6 +15,20 @@ cd wherever-you-cloned-it-to
 npm link
 ```
 
+### Docker Installation
+
+Build the image:
+
+```
+docker build -t swa .
+```
+
+Run the image:
+
+```
+docker run -it swa bash
+```
+
 ## Usage
 It will scrape Southwest's prices every `n` minutes (`n` = whatever interval you
 define via the `--interval` flag) and compare the results, letting you know the
